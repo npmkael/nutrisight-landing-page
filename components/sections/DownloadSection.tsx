@@ -5,11 +5,12 @@ import { Button } from "../ui/button";
 import Image from "next/image";
 import { ShimmerButton } from "../ui/shimmer-button";
 import { Download } from "lucide-react";
+import Link from "next/link";
 
 export function DownloadSection() {
   return (
     <section id="download" className="relative py-20 md:py-32 overflow-hidden">
-      <div className="border-border mx-auto pl-4 border-b max-w-7xl">
+      <div className="border-border mx-auto px-4 border-b max-w-7xl">
         <div className="flex flex-col items-center gap-10">
           <Badge variant="outline">Get Started</Badge>
           <h1 className="text-balance text-center text-5xl font-bold md:text-6xl">
@@ -17,12 +18,14 @@ export function DownloadSection() {
           </h1>
         </div>
         <div className="mt-16 flex flex-col items-center justify-center gap-6 sm:flex-row">
-          <ShimmerButton className="shadow-2xl">
-            <span className="flex items-center gap-2">
-              <Download className="w-4 h-4" />
-              Download APK
-            </span>
-          </ShimmerButton>
+          <Link href="https://github.com/npmkael/nutrisight/releases/download/v1.0.0/nutrisight.apk">
+            <ShimmerButton className="shadow-2xl">
+              <span className="flex items-center gap-2">
+                <Download className="w-4 h-4" />
+                Download APK
+              </span>
+            </ShimmerButton>
+          </Link>
         </div>
         <div className="mt-28 flex items-end justify-center gap-4">
           <div className="order-2 h-[600px] max-w-sm overflow-hidden md:h-[350px] lg:h-[450px] xl:h-[600px]">

@@ -123,11 +123,6 @@ export function FAQSection() {
         "NutriSight is a comprehensive healthcare management mobile application that helps you track your nutrition, detect allergies, get personalized recommendations, and stay on track with your goals.",
     },
     {
-      question: "Is my health data secure?",
-      answer:
-        "Yes, absolutely. NutriSight is HIPAA-compliant and uses end-to-end encryption to protect your data. Your health information is stored securely and is only accessible to you and healthcare providers you authorize.",
-    },
-    {
       question: "How much does NutriSight cost?",
       answer: "NutriSight is free to download and use for basic features.",
     },

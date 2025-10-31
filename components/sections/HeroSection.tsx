@@ -29,7 +29,7 @@ const HeroSection = ({
   buttons = {
     primary: {
       text: "Try Now",
-      url: "#",
+      url: "#download",
     },
   },
   image = {

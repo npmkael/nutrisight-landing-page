@@ -87,7 +87,7 @@ export function Footer() {
                     href="mailto:nutrisight@example.com"
                     className="text-muted-foreground hover:text-foreground transition-colors"
                   >
-                    nutrisight@example.com
+                    nutrisight.dhvsu@gmail.com
                   </a>
                 </div>
                 <div className="flex items-start space-x-3">
