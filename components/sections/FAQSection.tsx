@@ -120,7 +120,7 @@ export function FAQSection() {
     {
       question: "What is NutriSight?",
       answer:
-        "NutriSight is a comprehensive healthcare management mobile application that helps you track your nutrition, detect allergies, get personalized recommendations, and stay on track with your goals.",
+        "NutriSight is a mobile smart food scanner that provides nutritional information, personalized insights, and allergen alerts. Simply point your camera at any food item, and NutriSight will analyze it to give you a complete nutritional breakdown, and immediate warnings about potential allergens to help you make safer, healthier food choices.",
     },
     {
       question: "How much does NutriSight cost?",
