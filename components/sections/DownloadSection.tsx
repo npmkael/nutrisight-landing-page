@@ -51,7 +51,7 @@ export function DownloadSection() {
           <div className="order-3 hidden h-[280px] max-w-sm overflow-hidden md:block lg:h-[380px] xl:h-[480px]">
             <div className="relative">
               <Image
-                src="/images/scan-results.png"
+                src="/images/progress.png"
                 alt="scan results"
                 width={1000}
                 height={1000}
