@@ -18,7 +18,7 @@ export function DownloadSection() {
           </h1>
         </div>
         <div className="mt-16 flex flex-col items-center justify-center gap-6 sm:flex-row">
-          <Link href="https://github.com/npmkael/nutrisight/releases/download/v1.0.0/nutrisight.apk">
+          <Link href="https://github.com/npmkael/nutrisight/releases/download/v1.0.1/nutrisight_1.0.1.apk">
             <ShimmerButton className="shadow-2xl">
               <span className="flex items-center gap-2">
                 <Download className="w-4 h-4" />
