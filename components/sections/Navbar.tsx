@@ -155,7 +155,7 @@ export function Navbar() {
           <div className="hidden items-center space-x-4 lg:flex">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
-                href="https://github.com/npmkael/nutrisight/releases/download/v1.0.1/nutrisight_1.0.1.apk"
+                href="https://github.com/npmkael/nutrisight/releases/download/v1.0.2/nutrisight_1.0.2.apk"
                 className="inline-flex items-center space-x-2 rounded-full bg-primary px-6 py-2.5 font-medium text-white transition-all duration-200 hover:shadow-lg"
               >
                 <span>Download APK</span>
@@ -201,7 +201,7 @@ export function Navbar() {
                 ))}
                 <div className="space-y-2 px-4 py-2">
                   <Link
-                    href="https://github.com/npmkael/nutrisight/releases/download/v1.0.1/nutrisight_1.0.1.apk"
+                    href="https://github.com/npmkael/nutrisight/releases/download/v1.0.2/nutrisight_1.0.2.apk"
                     className="block w-full rounded-lg bg-primary py-2.5 text-center font-medium text-white transition-all duration-200 hover:shadow-lg"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
